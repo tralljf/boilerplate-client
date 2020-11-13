@@ -14,4 +14,5 @@ This project uses lot of stuff as:
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
 - [PLOP](https://plopjs.com/)
+- [GraphQL](https://graphql.org/)
 
