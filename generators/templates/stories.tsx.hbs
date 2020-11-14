@@ -3,7 +3,16 @@ import {{pascalCase name}} from '.'
 
 export default {
   title: '{{pascalCase name}}',
-  component: {{pascalCase name}}
+  component: {{pascalCase name}},
+  argTypes: {
+    children: {
+      type: 'string'
+    }
+  }
 } as Meta
 
-export const Default: Story = () => <{{pascalCase name}} />
+export const Default: Story = (args) => <{{pascalCase name}} {...args} />
+
+Default.args = {
+  children: '{{pascalCase name}}'
+}
